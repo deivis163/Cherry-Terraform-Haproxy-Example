@@ -17,3 +17,7 @@
 
 - This will create ~/.ssh/cherry and ~/.ssh/cherry.pub
 
+- Edit variables.tf and enter valid teamid
+
+- Run template with command: terraform init
+
