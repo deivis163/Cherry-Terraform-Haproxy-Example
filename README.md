@@ -21,3 +21,6 @@
 
 - Run template with command: terraform init
 
+<h1> Results </h1>
+
+- Once template completed all tasks open Main server's (Hostname Haproxy) floating IP in a web browser. This will show web1 or web2 server IP, reload page IP's should change each time. Firewall is configured to allow connections from main server, so any other users can access web1 and web2 sites dirrectly.
